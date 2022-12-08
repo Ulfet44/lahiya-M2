@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 body {
   font-family: roboto;
+  padding: 0;
+}
+
+.task{
+  width: 100%;
 }
 
 .contanier {
@@ -9,6 +14,7 @@ body {
   border-radius: 10px;
   border-color: #c4c4c4;
   border: 1px solid;
+  margin: auto;
 }
 
 .head {
@@ -58,8 +64,9 @@ input {
   border: none;
   background-color: #fff;
   position: absolute;
-  right: 25px;
+  right: 35px;
   top: 20px;
+  padding: 0;
 }
 
 li {
