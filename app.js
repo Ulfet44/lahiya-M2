@@ -47,7 +47,6 @@ iconSort.addEventListener("click", () => {
   let arr = []
   const listElement = document.querySelectorAll('.list li span')
   console.log(listElement);
-  // const sorteded = document.querySelector('.list li span')
   listElement.forEach((item) => {
     arr.push(item.textContent)
   })
@@ -65,5 +64,4 @@ iconSort.addEventListener("click", () => {
     })
     sorted = true
   }
-  console.log(arr)
 })
