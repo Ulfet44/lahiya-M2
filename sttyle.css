@@ -35,6 +35,9 @@ body {
   display: flex;
   justify-content: flex-end;
 }
+.down {
+   display: none
+}
 
 .sort {
   width: 25px;
